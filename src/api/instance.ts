@@ -1,5 +1,5 @@
 import axios from "axios";
-import { baseURL } from "../../constants";
+import { baseURL } from "../../notess";
 
 export const instance = axios.create({
   baseURL: process.env.EXPO_PUBLIC_API_URL || baseURL,
